@@ -37,8 +37,8 @@ body{
 .content{
     width: 100%;
     height: 100%;
-    border: 1px solid #000;
-   
+    /* border: 1px solid #000;
+    */
 }
 
 
@@ -76,7 +76,7 @@ main{
     background-color: green;
     margin-top: 55px;
     display: flex;
-    
+    flex-direction: column;
 }
 
 .banner{
@@ -84,7 +84,6 @@ main{
     height: 300px;
     background-image: url(./assets/images/image-web-3-desktop.jpg);
     background-size: cover;
-    margin-right: 30px;
 }
 
 .news{
@@ -96,9 +95,7 @@ main{
 
 
 
-.news h1{
-   padding-bottom: 5px;
-}
+
 
 
 
@@ -115,9 +112,57 @@ main{
     padding: 25px 0;
 }
 
+.left-side-layout{
+    margin-right: 30px;
+}
+
+.horizontal-layout{
+    width: 730px;
+    height: 210px;
+    /* border: 1px red solid; */
+    display: flex;
+    
+}
+
+.horizontal-part{
+    width: 50%; 
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.horizontal-part h1{
+    font-size: 60px;
+    line-height: 55px;
+}
+
+.horizontal-part p {
+    padding-bottom: 30px;
+}
+
+.horizontal-part a {
+    background-color: blue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
 
 
 
+
+.top-layout{
+    display: flex;
+}
+
+.bottom-layout{
+    width: 100%;
+    height: 179px;
+    display: flex;
+}
+
+.related-article{
+    width: 33.33%;
+    height: 100%;
+    border: 1px red solid;
+}
 
 
 
