@@ -83,6 +83,7 @@ main{
     width: 730px;
     height: 300px;
     background-image: url(./assets/images/image-web-3-desktop.jpg);
+    background-size: cover;
     margin-right: 30px;
 }
 
@@ -90,7 +91,31 @@ main{
     width: 350px;
     height: 510px;
     background-color: blue;
+    padding: 30px 20px;
 }
+
+
+
+.news h1{
+   padding-bottom: 5px;
+}
+
+
+
+.news-part hr{
+    border: 1px dotted black;
+}
+
+.news-part h2{
+    color: green;
+    padding-top: 25px;
+}
+
+.news-part p{
+    padding: 25px 0;
+}
+
+
 
 
 
