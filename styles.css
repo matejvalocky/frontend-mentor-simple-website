@@ -38,6 +38,8 @@ body{
 }
 
 
+
+
 /* CONTENT */
 
 .content{
@@ -45,6 +47,12 @@ body{
     height: 100%;
     /* border: 1px solid #000;
     */
+}
+
+.imgLogo{
+   width: 65px;
+   height: 40px;
+   background-image: url(./assets/images/logo.svg);
 }
 
 
